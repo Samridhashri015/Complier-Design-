@@ -1,19 +1,30 @@
 Complier-Design
-│
-├── lexical_analyzer.c
-├── regex_to_nfa.c
-├── nfa_to_dfa.c
-├── ambiguity_leftrecursion_leftfactoring.c
-├── shift_reduce_parser.c
-├── first_follow.c
-├── predictive_parser.c
-├── leading_trailing.c
-├── lr0_items.c
-├── postfix_prefix_generation.c
-├── quadruple_triple_indirect.c
-├── simple_code_generator.c
-├── dag_implementation.c
-├── dataflow_controlflow.c
-├── storage_allocation.c
-│
-└── README.md
+Implementation of Lexical Analyzer
+
+Conversion from Regular Expression to NFA
+
+Conversion from NFA to DFA
+
+Elimination of Ambiguity, Left Recursion and Left Factoring
+
+Shift Reduce Parsing
+
+FIRST and FOLLOW Computation
+
+Predictive Parsing Table
+
+Computation of LEADING and TRAILING
+
+Computation of LR(0) Items
+
+Intermediate Code Generation – Prefix and Postfix
+
+Intermediate Code Generation – Quadruple, Triple, and Indirect Triple
+
+Simple Code Generator
+
+Implementation of DAG (Directed Acyclic Graph)
+
+Data Flow and Control Flow Analysis
+
+Implementation of Storage Allocation Strategies (Heap / Stack / Static Allocation)
